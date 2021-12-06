@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2021 amyROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_certus.mk
+    $(LOCAL_DIR)/amy_alps_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_certus-user \
-    nad_certus-userdebug \
-    nad_certus-eng
+    amy_alps_certus-user \
+    amy_alps_certus-userdebug \
+    amy_alps_certus-eng

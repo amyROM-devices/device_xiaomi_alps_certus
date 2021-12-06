@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2021 amyROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,9 +31,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
-# GMS
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
@@ -40,11 +38,6 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 # APNs
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
-
-# Audio
-PRODUCT_PACKAGES += \
-    libaptX_encoder \
-    libaptXHD_encoder
 
 # Bluetooth
 PRODUCT_PACKAGES += \

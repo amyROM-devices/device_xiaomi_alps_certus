@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := xiaomi
 
-DEVICE_PATH := device/xiaomi/certus
+DEVICE_PATH := device/xiaomi/alps_certus
 
 BUILD_BROKEN_DUP_RULES := true
 
@@ -75,7 +75,7 @@ BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := certus,cactus,cereus
+TARGET_OTA_ASSERT_DEVICE := alps_certus,certus,cactus,cereus
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864

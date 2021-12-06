@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2021 amyROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,20 +16,14 @@
 #
 
 # Inherit from device
-$(call inherit-product, device/xiaomi/certus/device.mk)
+$(call inherit-product, device/xiaomi/alps_certus/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-
-# Official tag
-NAD_BUILD_TYPE := OFFICIAL
-
-# Boot animaton
-TARGET_BOOT_ANIMATION_RES := 720
+# Inherit common amyROM phones config
+$(call inherit-product, vendor/amy/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := certus
-PRODUCT_NAME := nad_certus
+PRODUCT_DEVICE := alps_certus
+PRODUCT_NAME := amy_alps_certus
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi 6 / Redmi 6A
+PRODUCT_MODEL := Redmi 6(A)
 PRODUCT_MANUFACTURER := Xiaomi
