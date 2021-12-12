@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="amyrom_maintainer">Siddharth</string>
+    <string name="amyrom_maintainer">Amy Grace</string>
 
     <string name="amy_device_platform_summary">MT6761/MT6762</string>
     <string name="amy_chipset_type_summary">Mediatek Helio A22/P22</string>
